@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.navbar-container{
+    display: flex;
+    background-color: rgb(248, 239, 234);
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+}
+.blog-name{
+    margin: 10px;
+    padding: 5px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 30px 20px 20px 20px;
+    padding: 10px;  
+    color: black;
+    
+    
+}
+
+.active{
+    color: black;
+    text-decoration: none;
+    margin: 80px 20px 20px 20px;
+    padding: 10px;
+}
+a:hover{
+    color: rgb(226, 185, 165);
+}
+
+.icon-bar{
+   display: flex;
+   margin: 10px;
+   padding: 10px;
+
+}
+.icon{
+    margin: 10px 5px 10px 0px;
+    padding: 10px;
+    color: rgb(148, 107, 112);
+}
+
+/* close navbar design */
+.img{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+}
+.image{
+   
+    padding: 10px;
+    position: relative;
+}
+.imag{
+    position: absolute;
+    background-color: white;
+    padding: 30px;
+    top: auto;
+    left: 25px;
+    right: 25px;
+    bottom: 50px;
+}
+.image img{
+    height: 480px;
+}
+.img-para{
+    color: pink;
+    text-align: center;
+}
+.date{
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+}
+.img-head{
+    text-align: center;
+    font-size: x-large;
+    padding: 5px;
+}
+/* close slide img */
+
+.fixed-img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap:  nowrap;
+    margin: 20px;
+    padding: 20px;
+
+}
+.fixed-image{
+    padding: 10px;
+}
+.fixed-image > img{
+    height: 250px;
+
+}
+.fixed-img-para{
+    color: pink;
+    padding: 4px;
+   
+
+}
+.fixed-img-head{
+    font-size: x-large;
+    padding: 3px;
+    overflow-wrap: break-word;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.fixed-date{
+    color: gray;
+    padding: 4px;
+
+}
+h2:hover{
+    color: pink;
+}
+
+/* close fixed image */
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.num{
+    border: solid rgb(206, 132, 96) 1px;
+    background-color: rgb(206, 132, 96);
+    margin: 5px;
+    padding: 10px;
+}
+.numb{
+    border: solid whitesmoke 1px;
+    background-color: whitesmoke;
+    margin: 5px;
+    padding: 10px;
+
+}
+.numb:hover{
+    border: solid rgb(206, 132, 96) 1px;
+    background-color: rgb(206, 132, 96);
+}
+
+/* close Page Number */
+
+.footer{
+    
+    margin-top: 100px;
+}
+.paragrapg{
+    text-align: center;
+    padding: 50px;
+}
+.paragrapg h1{
+    padding: 10px;
+}
+.paragrapg p{
+    padding: 15px;
+    color: gray;
+}
+.e-mail{
+    padding: 10px 80px;
+}
+
+.lebel{
+    border: solid black 1px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+
+}
+.horizental{
+    margin: 5px 250px 20px 250px;
+    padding: 5px;
+    color: gray;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.list a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    color: gray;
+}
+.list a:hover{
+    color: pink;
+}
+.copyright{
+    margin: 20px 10px 10px 295px;
+    padding: 20px 10px 10px 295px;
+}
+.copy{
+    color: gray;
+}
